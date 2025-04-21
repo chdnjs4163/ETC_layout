@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Relative4Activity">
+
+    <!-- 전화번호 입력창 -->
+    <EditText
+        android:id="@+id/editBase"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:hint="전화번호 입력"
+        android:inputType="phone" />
+
+    <!-- 전화번호 라벨 -->
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="전화번호: "
+        android:textSize="20sp"
+        android:layout_toStartOf="@id/editBase"
+        android:layout_alignBaseline="@id/editBase"
+        android:layout_marginEnd="8dp" />
+
+    <!-- 취소 버튼 -->
+    <Button
+        android:id="@+id/btnBase"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="취소"
+        android:layout_below="@id/editBase"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="16dp" />
+
+    <!-- 입력 버튼 -->
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="입력"
+        android:layout_below="@id/editBase"
+        android:layout_toStartOf="@id/btnBase"
+        android:layout_marginTop="16dp"
+        android:layout_marginEnd="16dp" />
+
+</RelativeLayout>
