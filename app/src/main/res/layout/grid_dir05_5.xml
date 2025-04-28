@@ -10,7 +10,7 @@
     tools:context=".GridDir05_5">
 
     <EditText
-        android:id="@+id/etn1"
+        android:id="@+id/edit1"
         android:textSize="20sp"
         android:layout_row="0"
         android:layout_column="0"
@@ -19,7 +19,7 @@
         android:hint="숫자1"
         android:layout_margin="5dp"/>
     <EditText
-        android:id="@+id/etn2"
+        android:id="@+id/edit2"
         android:textSize="20sp"
         android:layout_row="1"
         android:layout_column="0"
@@ -109,7 +109,7 @@
         android:layout_width="80dp"
         android:layout_height="wrap_content"/>
     <Button
-        android:id="@+id/Add"
+        android:id="@+id/btn_plus"
         android:text="더하기"
         android:textSize="20dp"
         android:layout_row="4"
@@ -118,7 +118,7 @@
         android:layout_gravity="fill_horizontal"
         android:layout_margin="5dp"/>
     <Button
-        android:id="@+id/Sub"
+        android:id="@+id/btn_minus"
         android:text="뺴기"
         android:textSize="20dp"
         android:layout_row="5"
@@ -127,7 +127,7 @@
         android:layout_gravity="fill_horizontal"
         android:layout_margin="5dp"/>
     <Button
-        android:id="@+id/Mul"
+        android:id="@+id/btn_multi"
         android:text="곱하기"
         android:textSize="20dp"
         android:layout_row="6"
@@ -136,7 +136,7 @@
         android:layout_gravity="fill_horizontal"
         android:layout_margin="5dp"/>
     <Button
-        android:id="@+id/Div"
+        android:id="@+id/btn_divide"
         android:text="나누기"
         android:textSize="20dp"
         android:layout_row="7"
@@ -145,7 +145,7 @@
         android:layout_gravity="fill_horizontal"
         android:layout_margin="5dp"/>
     <TextView
-        android:id="@+id/Result"
+        android:id="@+id/text_result"
         android:text="계산결과"
         android:textSize="20sp"
         android:textColor="#ff0000"
